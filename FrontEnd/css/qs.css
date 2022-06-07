@@ -1,0 +1,50 @@
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+h1{
+    text-align: center;
+    text-transform: unset;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+.caixa-J {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid #000000;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 40px 80px;
+    text-align: center;
+}
+.card {
+    background-position: 25px;
+}
+.desc-secao-mundo {
+    position: absolute; 
+    display: block; 
+    top: 0px; 
+    left: 0px; 
+    width: 272px; 
+    height: 98px; 
+    transform: scale(1.001);
+}
+
+
+.rodape-pagina{
+    text-align: center;
+}
+.rodape-pagina {
+	background-color: black;
+	color: #ffffff;
+	clear: both;
+}
+footer {
+	position: fixed;
+    bottom: 0;
+	width: 100%; 
+	box-sizing: content-box; 
+}

@@ -1,0 +1,149 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página de Alunos</title>
+    <link href="libs/css/bootstrap.min.css" rel="stylesheet">
+    <link href="libs/css/qs.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <h1>Netshoes</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipal"
+                aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarPrincipal">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="modelos.html">Mais Pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contat.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quesomos.html">Quem Somos</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="index.html">
+                <img src="libs/images/unitinslogo.jpg" alt="..." height="36">
+            </a>
+        </div>
+    </nav>
+
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Telefone</label>
+        <input type="number" class="form-control" id="exampleFormControlInput1">
+    </div>
+    <div class="form-group">
+        <label for="exampleSelect1" class="form-label mt-4">Estado</label>
+        <select class="form-select" id="exampleSelect1">
+          <option>Tocantins</option>
+          <option>São Paulo</option>
+          <option>Brasília</option>
+          <option>Goiás</option>
+          <option>Minas Gerais</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleSelect1" class="form-label mt-4">Cidade</label>
+        <select class="form-select" id="exampleSelect1">
+          <option>Palmas</option>
+          <option>Porto Nacional</option>
+          <option>Brasília</option>
+          <option>São Paulo</option>
+          <option>Goiância</option>
+        </select>
+      </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Idade</label>
+        <input type="number" class="form-control" id="exampleFormControlInput1">
+    </div>
+    <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+            <label class="form-check-label" for="gridRadios1">
+              Feminino
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              Masculino
+            </label>
+          </div>
+        </div>
+    </fieldset>
+    <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">Motivo do contato</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" >
+            <label class="form-check-label" for="gridRadios1">
+              Dúvida
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              Elogio
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              Outro
+            </label>
+          </div>
+        </div>
+    </fieldset>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    </fieldset>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </fieldset>
+
+    <a class="navbar-brand" href="index.html">
+        <img src="libs/images/unitinslogo.jpg" alt="..." height="36">
+    </a>
+
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            &copy; Desenvolvido por julia e lucas na disciplina de Desenvolvimento
+            <a class="text-dark" href="https://www.unitins.br/nPortal/sistemas-de-informacao-palmas">Front-end</a>
+            &lt; maio 2022 &gt;
+        </div>
+        <!-- Copyright -->
+    </footer>
+<script src="libs/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

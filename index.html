@@ -1,0 +1,201 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página de Alunos</title>
+    <link href="libs/css/bootstrap.min.css" rel="stylesheet">
+    <link href="libs/css/qs.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <h1>Netshoes</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipal"
+                aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarPrincipal">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="maispedidos.html">Modelos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quesomos.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contat.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="index.html">
+                <img src="libs/images/unitinslogo.jpg" alt="..." height="36">
+            </a>
+        </div>
+    </nav>
+
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <figure>
+        <blockquote class="blockquote">
+          <p class="mb-0">Este site está sendo desenvolvido como
+            trabalho prático da disciplina de Front-End, na Unitins, no curso de Sistema de Informação, utilizando as tecnologias que
+            aprendemos até agora que é desenvolvimento de páginas, trabalhando com HTML e CSS.</p>        
+        </blockquote>
+    </figure>
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="libs/images/tenis5.png" class="d-block w-100" alt="tenis">
+            </div>
+            <div class="carousel-item">
+                <img src="libs/images/tenis3.jpg" class="d-block w-100" alt="tenis">
+            </div>
+            <div class="carousel-item">
+                <img src="libs/images/tenis4.png" class="d-block w-100" alt="tenis">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Proximo</span>
+        </button>
+    </div>
+
+
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">UM DOS PRINCIPAIS SITES DE
+                LIFESTYLE ESPORTIVO
+                DA AMÉRICA LATINA</h5>
+          </div>
+          <p class="mb-1"></p>
+          <small></small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1"></h5>
+          </div>
+          <p class="mb-1"></p>
+          <small class="text-muted"></small>
+        </a>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h3>Vantagens da Netshoes</h3>
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                VELOCIDADE
+                DA ENTREGA
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" >
+            <div class="accordion-body">
+                <p>Com a entrega expressa você recebe em tempo recorde! </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                TROCA
+                GRÁTIS
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>Aqui na Netshoes sua primeira troca é totalmente por nossa conta</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                MELHORES
+                MARCAS
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p> Milhares de produtos esportivos para você escolher. Ah, e tudo original!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row" >
+        <div class="card text-white bg-dark mb-3" style="max-width: 25rem; text-align: center;">
+            <div class="card-header">MISSÃO</div>
+            <div class="card-body">
+              <h4 class="card-title">INSPIRAR E TRANSFORMAR A VIDA DAS PESSOAS COM ESPORTE E LAZER.</h4>
+            </div>
+          </div>
+          <div class="card text-white bg-dark mb-3" style="max-width: 25rem; text-align: center;">
+            <div class="card-header">VISÃO</div>
+            <div class="card-body">
+              <h4 class="card-title">A MELHOR E MAIS INOVADORA EXPERIÊNCIA DE COMPRA DO VAREJO ESPORTIVO.</h4></div>
+          </div>
+          <div class="card text-white bg-dark mb-3" style="max-width: 25rem; text-align: center;">
+            <div class="card-header">VALORES</div>
+            <div class="card-body">
+              <h4 class="card-title">ADRENALINA, ESPÍRITO DE EQUIPE, INSPIRAÇÃO E FOCO.</h4></div>
+          </div>
+      </div>
+
+
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+          <div class="d-flex w-100 justify-content-between">
+          </div>
+          <p class="mb-1">A NETSHOES É GUIADA PELA INOVAÇÃO E CONECTIVIDADE, POR ISSO É REFERÊNCIA EM SERVIÇO, 
+            ENTREGA E QUALIDADE. A MARCA TEM MAIS DE 15 MILHÕES DE FÃS NAS REDES SOCIAIS E É REFERÊNCIA PARA O VAREJO 
+            DIGITAL HÁ 20 ANOS.</p>
+        </a>
+    </div>    
+
+    <a class="navbar-brand" href="index.html">
+        <img src="libs/images/unitinslogo.jpg" alt="..." height="36">
+    </a>
+
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            &copy; Desenvolvido por julia e lucas na disciplina de Desenvolvimento
+            <a class="text-dark" href="https://www.unitins.br/nPortal/sistemas-de-informacao-palmas">Front-end</a>
+            &lt; maio 2022 &gt;
+        </div>
+        <!-- Copyright -->
+    </footer>
+<script src="libs/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

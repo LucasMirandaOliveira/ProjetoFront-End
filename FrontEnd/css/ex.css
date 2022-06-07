@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#menuH{
+    background-color: rgb(93, 3, 153);
+}
+#menuH ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+#menuH ul li {
+    display: inline;
+}
+
+#menuH ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+#menuH ul li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+    text-transform: unset;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.carrossel {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slides {
+    position: absolute;
+}
+.rodape-pagina {
+	background-color: black;
+	color: #ffffff;
+	clear: both;
+}
+footer {
+	position: fixed;
+    bottom: 0;
+	width: 100%; 
+	box-sizing: content-box; 
+}
